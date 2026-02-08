@@ -4,7 +4,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Titulo da pagina</title>
+    <title>Doner</title>
 </head>
 
 <body>
@@ -63,6 +63,38 @@
 
             <h2>Contato</h2>
             <p>Tem um projeto em mente Entre em contato</p>
+
+            <form action="">
+                <label for="nome">Nome:</label>
+                <input type="text" id="nome"name="nome" required><br>
+                
+                <label for="email">E-mail:</label>
+                <input type="email" id="email"name="email" required><br>
+
+                <label for="telefone">Telefone:</label>
+                <input type="tel" id="telene"name="telefone" required><br>
+
+                <label for="assunto">Assunto:</label>
+                <select name="assunto" id="assunto">
+                    <option value="orçamento">Orçamento</option>
+                    <option value="duvida">Dívida</option>
+                    <option value="outro">Outro</option>
+                </select>
+                <br>
+
+                <label for="mensagem">Mensagem</label>
+                <textarea name="mensagen" id="mensagem" cols="20" rows="10"></textarea>
+
+                <br>
+
+                <input type="checkbox" id="inscrição" name="inscrição">
+                <label for="inscrição">Deseja receber minha newsletter? Fique por dentro.</label>
+
+                <br>
+
+                <input type="submit" value="enviar mensagem">
+
+            </form>
             <address>
                 E-mail: <a href="mailto:doner@doner.com">doner@doner.com</a> <br>
                 Telefone: <a href="Telefone:+55559999999">55559999999</a>
